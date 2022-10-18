@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+
+}
+
+.logo {
+
+    height: 204px;
+    width: 176px;
+
+}
+
+.left p {
+    height: 54px;
+    width: 281px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 28px;
+
+}
+
+.line {
+
+    height: 481px;
+    width: 1px;
+    opacity: 0.19;
+    background-color: #F5F7FB;
+
+}

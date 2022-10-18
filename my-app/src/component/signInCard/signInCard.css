@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+form{
+    height: 387px;
+    width: 333px;
+
+}
+
+.right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 60%;     
+
+}
+
+.pinField{
+   position: relative;
+}
+
+
+.eye{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    bottom:35px;
+    right: 5px;
+}
+
+.signIn{
+    
+    height: 27px;
+    width: 325px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.67px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+.mobileField{
+    box-sizing: border-box;
+    height: 54px;
+    width: 332px;
+    border: 0.55px solid rgba(208,208,208,0.5);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin-top: 36px;
+  
+}
+
+.mpinField{
+    box-sizing: border-box;
+    height: 54px;
+    width: 332px;
+    border: 0.55px solid rgba(208,208,208,0.5);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.input{
+  margin-top: 36px;
+}
+
+input::placeholder{
+    height: 22px;
+    width: 121px;
+    color: #787E8C;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 17px 89px 15px 22px;
+}
+
+.forgot{
+    height: 19px;
+    width: 154px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: right;
+    margin-top: 19px;
+    float: right;
+
+  
+}
+
+.submit{
+    height: 44px;
+    width: 130px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: none;
+    margin-top: 79px;
+    
+
+}
+
+.btn{
+    
+    height: 24px;
+    width: 75px;
+    color: #0E85FF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+    text-transform: uppercase;
+} 
+
+.dont-have-a-account {
+    height: 19px;
+    width: 225px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 58px;
+  }
+
+  a{
+    all: unset;
+    cursor: pointer;
+
+  }
+ 
