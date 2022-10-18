@@ -6,7 +6,7 @@ function Input(props: any) {
   return (
     <div>
      
-       <input className="field" type="text" placeholder={props.placeholder} />
+       <input className="field" type={props.type} placeholder={props.placeholder} name={props.name} onChange={props.onChange} />
 
 
       

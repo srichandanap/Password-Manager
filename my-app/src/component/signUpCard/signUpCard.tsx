@@ -1,10 +1,20 @@
-import React from 'react'
+import React , {useState} from 'react'
 import "./signUpCard.css";
 import eye from "../../assets/icons/eye_on.png";
 import Input from "../input/input";
+import Button from '../button/button';
 
 
 const SignUpCard = () => {
+
+    const [passwordType, setPasswordType] = useState<boolean>(false);
+     
+        const togglePassword = () => {
+            
+            setPasswordType(!passwordType);
+
+        };
+
     return (
         <>
             <div className="right">
@@ -14,13 +24,13 @@ const SignUpCard = () => {
                         <Input placeholder='Enter Mobile Number' />
                         <Input placeholder='Enter 4 Digit Mpin' />
                         <div className='pinField'>
-                            <Input placeholder='Re-Enter 4 Digit Mpin' />
-                            <img className= 'eye' src={eye} alt="eye" />
+                            <Input type={passwordType ? "text" : "password"} placeholder='Re-Enter 4 Digit Mpin' />
+                            <img className= 'eye' src={eye} alt="eye" onClick={togglePassword}  />
                         </div>
 
                     </div>
-                    <div>
-                        <button className='submit'><span className="btn">sign up</span></button>
+                    <div className='bt'>
+                    <Button value='sign up' />
                     </div>
 
                 </form>

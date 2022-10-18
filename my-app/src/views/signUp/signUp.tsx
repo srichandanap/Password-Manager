@@ -1,5 +1,5 @@
 import React from 'react';
-import "./signUp.css";
+import "../signIn/signIn.css";
 import SignUpCard from '../../component/signUpCard/signUpCard';
 import Card from '../../component/card/card';
 

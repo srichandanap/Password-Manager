@@ -26,8 +26,8 @@ form{
     height: 24px;
     width: 24px;
     position: absolute;
-    bottom:35px;
-    right: 5px;
+    bottom:31px;
+    right: 15px;
 }
 
 .signIn{
@@ -44,27 +44,6 @@ form{
     text-transform: uppercase;
     
 
-}
-
-.mobileField{
-    box-sizing: border-box;
-    height: 54px;
-    width: 332px;
-    border: 0.55px solid rgba(208,208,208,0.5);
-    border-radius: 4px;
-    background-color: #FFFFFF;
-    margin-top: 36px;
-  
-}
-
-.mpinField{
-    box-sizing: border-box;
-    height: 54px;
-    width: 332px;
-    border: 0.55px solid rgba(208,208,208,0.5);
-    border-radius: 4px;
-    background-color: #FFFFFF;
-    margin-top: 16px;
 }
 
 .input{
@@ -95,33 +74,14 @@ input::placeholder{
     text-align: right;
     margin-top: 19px;
     float: right;
-
+    cursor: pointer;
   
 }
 
-.submit{
-    height: 44px;
-    width: 130px;
-    border-radius: 4px;
-    background-color: #FFFFFF;
-    border: none;
+.button{ 
     margin-top: 79px;
-    
-
 }
 
-.btn{
-    
-    height: 24px;
-    width: 75px;
-    color: #0E85FF;
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    line-height: 24px;
-    text-transform: uppercase;
-} 
 
 .dont-have-a-account {
     height: 19px;
