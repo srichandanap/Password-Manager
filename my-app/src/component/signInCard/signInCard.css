@@ -28,6 +28,7 @@ form{
     position: absolute;
     bottom:31px;
     right: 15px;
+    cursor: pointer;
 }
 
 .signIn{
