@@ -1,6 +1,7 @@
 import react from "react";
 import "./card.css";
 import logo from "../../assets/images/logo.png";
+import "../../styles/import.css";
 
 
 const Card = () => {

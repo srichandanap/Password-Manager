@@ -1,5 +1,6 @@
 import React from 'react';
 import './input.css';
+import "../../styles/import.css";
 
 
 function Input(props: any) {

@@ -3,6 +3,7 @@ import "./signUpCard.css";
 import eye from "../../assets/icons/eye_on.png";
 import Input from "../input/input";
 import Button from '../button/button';
+import "../../styles/import.css";
 
 
 const SignUpCard = () => {

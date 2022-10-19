@@ -4,6 +4,7 @@ import eye from "../../assets/icons/eye_on.png";
 import Input from "../input/input";
 import { Link } from 'react-router-dom';
 import Button from '../button/button';
+import "../../styles/import.css";
 
 const SignInCard = () => {
 
@@ -14,7 +15,6 @@ const SignInCard = () => {
         setPasswordType(!passwordType);
 
     };
-
 
     return (
         <>
@@ -37,11 +37,13 @@ const SignInCard = () => {
 
                     <div className='button'>
 
-                            <Button value='sign in' type='submit'/>
+                            <Button value='sign in' type='submit'  />
 
                     </div>
-
+ 
                     <div className='dont-have-a-account'>Don't have a Account? <Link to="/SignUp"> SIGNUP</Link></div>
+            
+
                 </form>
             </div>
         </>
