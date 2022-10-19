@@ -1,0 +1,33 @@
+.container{
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 9rem;
+     height: 891px;
+     width: 1156px;
+     /* background-color: #FAFAFA; */
+     background-color: rgb(236, 37, 70);
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+
+}
+
+.sites{
+    height: 41px;
+    width: 69px;
+    color: #3C4857;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 41px;
+    margin-left: 9rem;
+    margin-top: 171px;
+    margin-left: 210px;
+}
+
+.input{
+  height: 32px;
+  width: 245px;
+}

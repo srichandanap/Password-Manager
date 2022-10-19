@@ -5,10 +5,25 @@ import "./sideBar.css";
 
 const sideBar = () => {
   return (
-    <div className='container'>
-       <img className="menu" src={menu} alt="eye"/>
-       <img className="home" src={home} alt="eye"  />
-    </div>
+    <div className="container">
+
+                    <div className="menu">
+
+                        <img src={menu} alt="icon" />
+
+                    </div>
+
+                    <div className="home">
+
+                        <img src={home} alt="icon" />
+
+                    </div>
+
+                    <div className="round"></div>
+
+                </div>
+
+
   )
 }
 

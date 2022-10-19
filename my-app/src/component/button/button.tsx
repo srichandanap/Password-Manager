@@ -6,8 +6,8 @@ function Button(props: any) {
   return (
     <div>
      
-       <button className='submit'  onClick={props.onClick} >
-        <text className='btn'>{props.value} </text>
+       <button className='submit'  onClick={props.onClick}  >
+        <span className='btn'>{props.value} </span>
        </button>
 
 
